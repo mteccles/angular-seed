@@ -1,1 +1,8 @@
+<div ng-controller="MyCtrl1">
 <p>This is the partial for view 1.</p>
+    <ul ng-repeat="recipename in recipe">
+        <li>{{ recipename.id}}</li>
+        <li>{{ recipename.name}}</li>
+        <li>{{ recipename.description}}</li>
+    </ul>
+</div>
